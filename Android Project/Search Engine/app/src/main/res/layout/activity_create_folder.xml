@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.user.seachengine.CreateFolderActivity">
+
+
+    <Button
+        android:id="@+id/btnCreateFolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Folder"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <EditText
+        android:id="@+id/editTextFolderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <TextView
+        android:id="@+id/textviewFolderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Folder Name"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="138dp" />
+    <EditText
+        android:id="@+id/editTextFileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <TextView
+        android:id="@+id/textviewFileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="File Name"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+
+    <EditText
+        android:id="@+id/editTextFileContent"
+        android:layout_width="332dp"
+        android:layout_height="171dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <TextView
+        android:id="@+id/textViewFileContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="File Contents"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <Button
+        android:id="@+id/btnFinished"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+
+</LinearLayout>

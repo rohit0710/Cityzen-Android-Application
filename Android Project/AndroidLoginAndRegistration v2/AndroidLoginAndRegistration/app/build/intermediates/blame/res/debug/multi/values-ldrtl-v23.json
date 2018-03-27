@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\USER\\Desktop\\Thesis\\Android Project\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldrtl-v23\\values-ldrtl-v23.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 112,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "C:\\Users\\USER\\.android\\build-cache\\76d8ff24bcb66125689ab7e84256f40ef288e12e\\output\\res\\values-ldrtl-v23\\values-ldrtl-v23.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 240,
+                        "endColumn": 112,
+                        "endOffset": 348
+                    }
+                }
+            }
+        ]
+    }
+]
